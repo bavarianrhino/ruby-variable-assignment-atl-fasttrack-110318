@@ -8,8 +8,8 @@ badge_maker("Ryan")
 greetings = []
 arr_names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 def batch_badge_creator (arr_names)
-  names.each do |i|
-  greetings << "hi, #{i}!"
+  names.each do |arr_names|
+  greetings << "Hello, my name is #{arr_names}!"
 end
 
 print greetingsend
