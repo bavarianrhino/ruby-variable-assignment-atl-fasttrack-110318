@@ -3,8 +3,15 @@ def badge_maker (name)
 end
 badge_maker("Ryan")
 
+###################################
+
+greetings = []
+arr_names = []
 def batch_badge_creator (arr_names)
-  each.arr_names
+  names.each do |i|
+  greetings << "hi, #{i}!"
 end
+
+print greetingsend
 
   
