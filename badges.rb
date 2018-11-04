@@ -7,9 +7,9 @@ badge_maker("Ryan")
 
 greetings = []
 arr_names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-def batch_badge_creator (arr_names)
-  names.each do |arr_names|
-  greetings << "Hello, my name is #{arr_names}!"
+def batch_badge_creator (i)
+  arr_names.each do |i|
+  greetings << "Hello, my name is #{arr_names[i]}!"
 end
 end
 
