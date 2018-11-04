@@ -20,11 +20,12 @@ batch_badge_creator (["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Mat
 
 def assign_rooms (array)
   room_assign = []
+  val = 1
   array.each do |arrry, val|
-    room_assign.push "Hello #{array}"
-    greetings.push "Hello, my name is #{i}."
+    room_assign.push "Hello #{array}! You'll be assigned to room #{val}!"
+    val = val + 1
   end
-  return greetings
+  print room_assign
 end
 
 
