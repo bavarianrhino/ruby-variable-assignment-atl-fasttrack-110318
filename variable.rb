@@ -14,7 +14,7 @@
 #******************
 
 
-names = ["Ryan", "April", "John", "Zack"]
+#names = ["Ryan", "April", "John", "Zack"]
 
 #5.times do |i|
 #  puts "hi, #{names[i]}"
@@ -26,12 +26,22 @@ names = ["Ryan", "April", "John", "Zack"]
 #end
 
 
-greetings = []
-names.each do |i|
- greetings << "hi, #{i}!"
-end
+#greetings = []
+#names.each do |i|
+# greetings << "hi, #{i}!"
+#end
 
-print greetings
+#print greetings
+
+
+
+
+
+
+
+
+
+
 
 
 
