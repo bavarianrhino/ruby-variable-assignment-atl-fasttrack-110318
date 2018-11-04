@@ -30,7 +30,8 @@ end
 
 ###################################
 
-def printer
+def printer (method1, method2)
+  puts
   
 end
 
