@@ -11,6 +11,30 @@ end
 
 greet("April")
 
+******************
+
+
+names = [“ryan”, “zack”, ‘john”]
+
+5.times do |i|
+  puts "hi, #{name[i]}"
+end
+
+names.each do |i|
+  puts “hi, #{name[i]}
+end
+
+
+
+or 
+
+greetings = []
+names.each do |name|
+ greetings << “hi, #{name}”
+end
+
+print greetings
+
 
 
 
