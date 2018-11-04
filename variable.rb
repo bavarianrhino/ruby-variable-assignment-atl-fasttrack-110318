@@ -16,13 +16,13 @@
 
 names = ["Ryan", "April", "John", "Zack"]
 
-5.times do |i|
-  puts "hi, #{names[i]}"
-end
-
-#names.each do |i|
-# puts “hi, #{name[i]}
+#5.times do |i|
+#  puts "hi, #{names[i]}"
 #end
+
+names.each do |i|
+ puts "hi, #{names[i]}"
+end
 
 
 #greetings = []
