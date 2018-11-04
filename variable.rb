@@ -21,7 +21,7 @@ names = ["Ryan", "April", "John", "Zack"]
 #end
 
 names.each do |i|
- puts "hi, #{names[i]}"
+ puts "Hi, #{names[i]}!"
 end
 
 
