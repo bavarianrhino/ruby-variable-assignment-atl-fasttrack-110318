@@ -5,9 +5,8 @@ badge_maker("Ryan")
 
 ###################################
 
-greetings = [" "]
-#names= ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 def batch_badge_creator (array)
+  greetings = []
   array.each do |i|
     greetings.push "Hello, my name is #{i}."
   end
@@ -19,9 +18,9 @@ batch_badge_creator (["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Mat
 ###################################
 
 
-#def assign_rooms (array)
-#  array.each_with_index |arrry, val|
-#end
+def assign_rooms (array)
+  array.each_with_index |arrry, val|
+end
 
 
 
