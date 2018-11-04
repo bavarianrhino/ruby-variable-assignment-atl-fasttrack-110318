@@ -5,9 +5,10 @@
 
 
 
-50.times (i)
-  times.
-  
+def greet (name)
+  puts "Whats up #{name}!"
+end
+greet(ryan)
 
 
 
