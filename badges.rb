@@ -7,8 +7,8 @@ badge_maker("Ryan")
 
 greetings = []
 arr_names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-def batch_badge_creator (arg)
-  arg.each do |i|
+#def batch_badge_creator (arg)
+  arg_names.each do |i|
     greetings << "Hello, my name is #{arg[i]}!"
   end
   puts greetings
