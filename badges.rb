@@ -15,11 +15,11 @@ def batch_badge_creator (array)
 end
 
 batch_badge_creator (["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"])
+
 ###################################
 
 
 def assign_rooms (array)
-  array = ["A", "B", "C"]
 array.each_with_index {|val, index| puts "#{val} => #{index}" }
 end
 
