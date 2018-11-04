@@ -8,7 +8,8 @@
 def greet (name)
   puts "Whats up #{name}!"
 end
-greet(ryan)
+
+greet(April)
 
 
 
