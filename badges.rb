@@ -30,9 +30,9 @@ end
 
 ###################################
 
-def printer (method1, method2)
-  puts
-  
+def printer (batch_badge_creator, room_assign)
+  print batch_badge_creator
+  print room_assign
 end
 
 
