@@ -6,7 +6,7 @@ badge_maker("Ryan")
 ###################################
 
 def batch_badge_creator (array)
-  greetings = []
+  greetings = [" "]
   array.each do |i|
     greetings.push "Hello, my name is #{i}."
   end
