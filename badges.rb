@@ -13,6 +13,6 @@ def batch_badge_creator (i)
 end
 end
 
-print greetings
+batch-badge_creator(arr_names)
 
   
