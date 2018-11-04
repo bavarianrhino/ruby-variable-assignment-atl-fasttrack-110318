@@ -11,8 +11,8 @@ def batch_badge_creator (arg)
   arg.each do |i|
     greetings << "Hello, my name is #{arg[i]}."
   end
+  puts greetings
 end
-puts greetings
 
 batch_badge_creator (["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"])
 ###################################
