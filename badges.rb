@@ -18,22 +18,19 @@ batch_badge_creator (["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Mat
 ###################################
 
 
-def assign_rooms (array)
+def assign_rooms (array, val)
   room_assign = []
   val = 1
-  array.each do |arrry, val|
-    room_assign.push "Hello #{array}! You'll be assigned to room #{val}!"
+  array.each do |i|
+    room_assign.push "Hello #{i}! You'll be assigned to room #{val}!"
     val = val + 1
   end
-  print room_assign
+  return room_assign
 end
 
-
-
-
-
-
 ###################################
+
+def printer
 
 
 
