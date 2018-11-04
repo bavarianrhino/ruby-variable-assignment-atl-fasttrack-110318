@@ -14,6 +14,6 @@ def batch_badge_creator (arg)
   puts greetings
 end
 
-batch-badge_creator(arr_names)
+batch_badge_creator(arr_names)
 
   
