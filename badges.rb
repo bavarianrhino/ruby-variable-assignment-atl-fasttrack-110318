@@ -11,6 +11,7 @@ def batch_badge_creator (arr_names)
   names.each do |arr_names|
   greetings << "Hello, my name is #{arr_names}!"
 end
+end
 
 print greetingsend
 
