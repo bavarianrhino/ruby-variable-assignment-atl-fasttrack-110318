@@ -19,7 +19,7 @@ batch_badge_creator (["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Mat
 
 
 def assign_rooms (array)
-  array.each_with_index |arrry, val|
+  #array.each_with_index |arrry, val|
 end
 
 
