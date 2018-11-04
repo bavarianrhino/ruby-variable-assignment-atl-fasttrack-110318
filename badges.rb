@@ -19,6 +19,7 @@ batch_badge_creator (["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Mat
 
 
 def assign_rooms (arg)
+end
 
 
 
