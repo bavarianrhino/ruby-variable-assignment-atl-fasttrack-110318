@@ -1,2 +1,2 @@
-def badge_maker (names)
-  
+def badge_maker (name)
+  puts "Hello"
