@@ -4,6 +4,7 @@ end
 badge_maker("Ryan")
 
 def batch_badge_creator (arr_names)
+  each.arr_names
 end
 
   
