@@ -5,35 +5,32 @@
 
 
 
-def greet (name)
-  puts "Whats up #{name}!"
-end
+#def greet (name)
+#  puts "Whats up #{name}!"
+#end
 
-greet("April")
+#greet("April")
 
-******************
+#******************
 
 
 names = [“ryan”, “zack”, ‘john”]
 
 5.times do |i|
-  puts "hi, #{name[i]}"
+  puts "hi, #{names[i]}"
 end
 
-names.each do |i|
-  puts “hi, #{name[i]}
-end
+#names.each do |i|
+# puts “hi, #{name[i]}
+#end
 
 
+#greetings = []
+#names.each do |name|
+# greetings << “hi, #{name}”
+#end
 
-or 
-
-greetings = []
-names.each do |name|
- greetings << “hi, #{name}”
-end
-
-print greetings
+#print greetings
 
 
 
