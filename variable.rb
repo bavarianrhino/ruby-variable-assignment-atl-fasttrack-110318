@@ -14,7 +14,7 @@
 #******************
 
 
-names = ["Ryan", "April", "John", "Zack"]
+#names = ["Ryan", "April", "John", "Zack"]
 
 #5.times do |i|
 #  puts "hi, #{names[i]}"
