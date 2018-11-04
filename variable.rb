@@ -22,8 +22,10 @@
 
 names = ["Ryan", "April", "John", "Zack"]
 
-names.each do |i|
- puts "Hi, #{names[i]}!"
+names.each do |i
+puts i
+puts names[i]
+ #puts "Hi #{names[i]}!"
 end
 
 
