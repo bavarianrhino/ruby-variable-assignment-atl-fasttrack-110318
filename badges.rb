@@ -1,5 +1,5 @@
 def badge_maker (name)
-  puts "Hello, my name is #{name}."
+  return "Hello, my name is #{name}."
 end
 badge_maker("Ryan")
 
@@ -10,7 +10,7 @@ def batch_badge_creator (array)
   array.each do |i|
     greetings.push "Hello, my name is #{i}."
   end
-  print greetings
+  return greetings
 end
 
 batch_badge_creator (["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"])
@@ -19,7 +19,8 @@ batch_badge_creator (["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Mat
 
 
 def assign_rooms (array)
-  #array.each_with_index |arrry, val|
+  array.each_with_index |arrry, val|
+    
 end
 
 
