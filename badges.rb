@@ -10,7 +10,7 @@ def batch_badge_creator (array)
   array.each do |i|
     greetings.push "Hello, my name is #{i}."
   end
-  puts greetings
+  print greetings
 end
 
 batch_badge_creator (["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"])
