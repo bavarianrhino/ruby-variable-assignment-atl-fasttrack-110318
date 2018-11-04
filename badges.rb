@@ -6,16 +6,17 @@ badge_maker("Ryan")
 ###################################
 
 greetings = []
-batch_badge_creator = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-batch_badge_creator.each do |i|
-    greetings << "Hello, my name is #{i}."
+names= ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+def batch_badge_creator (name)
+  names.each do |i|
+    greetings << "Hello, my name is #{names[i]}."
 end
 puts greetings
 
 ###################################
 
 
-
+def sign_
 
 
 
